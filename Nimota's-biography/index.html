@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="style.css">
+    <title>neemsportfolio</title>
+</head>
+<body>
+<!--Meet me--> 
+ <div id="bio">
+ <div class="intro-section">
+  <div id="neems-img">
+    <img src="my-picture.jpeg" height="400px" width="350px" style="border-radius: 50px;">
+ </div>
+ <div id="intro">
+ <div id="Meet">
+Hi, I'm Adeniran Nimota Ololade<br>
+ <span id="dev">a front end developer</span>
+ </div>
+ <div id="about">I'm a proactive individual with a highly result-oriented 
+     personality and a sucker for career growth and development. Totally committed to 
+     challenging job and projects that offers self growth and opportunity to contribute effectively and 
+     efficiently to an organization. 
+     <p id="learning-status">I am currently learning HTML and CSS.</p>
+     <button id="update-button">Update Me</button>
+    </div>
+ </div>
+
+</div>
+      <script>
+        // JavaScript 
+        function updateText() {
+          var learningStatus = document.getElementById('learning-status');
+          learningStatus.textContent = "I am currently learning JavaScript.";
+        }
+        var updateButton = document.getElementById('update-button');
+        updateButton.addEventListener('click', updateText);
+      </script> 
+ </div>
+</body>
+</html>
+
+
+
